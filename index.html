@@ -2,60 +2,54 @@
 
 <html>
 
-	<!-- 	This is the "Head" of the HTML document.
+	<!--
+		This is the "Head" of the HTML document.
 		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page
+		for the web browser when loading the page.
 	-->
 	<head>
-		<!-- 	This is the title of the page.
-			It is the text that appears inside this pages tab in your web browser
+		<!--
+			This is the title of the page.
+			It is the text that appears inside this pages tab in your web browser.
 		-->
 		<title>
 			Giancarlo Paoletti
 		</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 
-	<!-- The body is the location where your site's content will go -->
+	<!--
+		The body is the location where your site's content will go.
+	-->
 	<body class="is-preload">
 
 		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<!-- This element makes an "Unordered List" -->
-						<ul>
-							<!-- This is a "List Item" -->
-							<!-- 	Note that this links to #about, which will move the page to wherever
-								the element with the id "about" exists.
-							-->
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
-							<!-- 	You can add another button to your navigation menu by adding
-								another List Item with a link inside of it.
-							-->
-							<!-- <li>
-								<a href="images/Astronomy.jpg">My CV</a>
-							</li> -->
-						</ul>
-					</nav>
-				</div>
-			</section>
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<!-- This element makes an "Unordered List" -->
+					<ul>
+						<!-- This is a "List Item" -->
+						<!-- 	Note that this links to #about, which will move the page to wherever
+							the element with the id "about" exists.
+						-->
+						<li><a href="#intro">Welcome</a></li>
+						<li><a href="#one">Who we are</a></li>
+						<li><a href="#two">What we do</a></li>
+						<li><a href="#three">Get in touch</a></li>
+						<!-- 	You can add another button to your navigation menu by adding
+							another List Item with a link inside of it.
+						-->
+						<!-- <li>
+							<a href="images/Astronomy.jpg">My CV</a>
+						</li> -->
+					</ul>
+				</nav>
+			</div>
+		</section>
 
 		<!-- Wrapper -->
 		<!-- This "div" wraps around all of our content and just changes how things are layed out -->
