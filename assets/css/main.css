@@ -2613,6 +2613,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.avatar {
+			max-width: 100%;
+			clip-path: ellipse(41% 50% at 58% 50%);
+			float: left;
+		}
+
+			.image.avatar img {
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
