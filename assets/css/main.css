@@ -2594,7 +2594,7 @@ input, select, textarea {
 		}
 
 		.image.profile_left, .image.profile_right {
-			max-width: 5%;
+			max-width: 20%;
 		}
 
 			.image.profile_left img, .image.profile_right img {
