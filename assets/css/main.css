@@ -2593,6 +2593,26 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		.image.profile_left, .image.profile_right {
+			max-width: 20%;
+		}
+
+			.image.profile_left img, .image.profile_right img {
+				width: 100%;
+			}
+
+		.image.profile_left {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.profile_right {
+			float: right;
+			margin: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
