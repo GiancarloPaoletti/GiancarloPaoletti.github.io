@@ -3293,6 +3293,26 @@ input, select, textarea {
 			background-color: #953d75;
 		}
 
+		.wrapper.pastel-red {
+			background-color: #ffb3ba;
+		}
+
+		.wrapper.pastel-orange {
+			background-color: #ffdfba;
+		}
+
+		.wrapper.pastel-yellow {
+			background-color: #ffffba;
+		}
+
+		.wrapper.pastel-green {
+			background-color: #baffc9;
+		}
+
+		.wrapper.pastel-blue {
+			background-color: #bae1ff;
+		}
+
 		.wrapper.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
