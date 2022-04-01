@@ -27,6 +27,9 @@
 		@elseif ($category == solid) {
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
+		@elseif ($category == regular) {
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 900;
 		}
 		@else {
 			font-family: 'Font Awesome 5 Free';
