@@ -2589,7 +2589,7 @@ input, select, textarea {
 		}
 
 		.image.profile_left, .image.profile_right {
-			max-width: 20%;
+			max-width: 25%;
 		}
 
 			.image.profile_left img, .image.profile_right img {
@@ -2604,7 +2604,6 @@ input, select, textarea {
 
 		.image.profile_right {
 			float: right;
-			margin: 0 0 1em 1.5em;
 			top: 0.25em;
 			clip-path: ellipse(41% 50% at 58% 50%);
 		}
