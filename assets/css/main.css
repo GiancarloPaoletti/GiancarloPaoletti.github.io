@@ -3895,9 +3895,9 @@ input, select, textarea {
 
 		}
 
-/* About */
+/* Intro */
 
-	#about {
+	#intro {
 		background-attachment: fixed;
 		background-image: url("images/intro.svg");
 		background-position: top right;
@@ -3905,13 +3905,13 @@ input, select, textarea {
 		background-size: 100% 100%;
 	}
 
-		#about p {
+		#intro p {
 			font-size: 1em;
 		}
 
 			@media screen and (max-width: 980px) {
 
-				#about p br {
+				#intro p br {
 					display: none;
 				}
 
@@ -3919,7 +3919,7 @@ input, select, textarea {
 
 			@media screen and (max-width: 736px) {
 
-				#about p {
+				#intro p {
 					font-size: 1em;
 				}
 
@@ -3927,7 +3927,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			#about {
+			#intro {
 				background-attachment: scroll;
 			}
 
