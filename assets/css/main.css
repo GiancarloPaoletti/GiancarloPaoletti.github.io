@@ -2629,12 +2629,15 @@ input, select, textarea {
 			}
 
 		.image.square {
-			max-height: 100px;
+			max-height: auto;
+			max-width: auto;
+			height: auto;
 			width:auto;
 		}
 
 			.image.square img {
-				height: 100px;
+				width: auto;
+				height: auto;
 			}
 
 		.image.avatar {
