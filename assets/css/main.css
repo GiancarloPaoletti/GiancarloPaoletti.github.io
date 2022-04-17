@@ -3081,6 +3081,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
+			heigth: 15em;
 			-ms-flex: 1;
 		}
 
