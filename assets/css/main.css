@@ -3038,10 +3038,10 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: contain;
+			background-size: cover;
 			border-radius: 0;
 			display: block;
-			position: absolute;
+			position: relative;
 			width: 25em;
 			height: auto;
 		}
