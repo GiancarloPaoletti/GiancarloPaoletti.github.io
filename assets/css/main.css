@@ -3039,6 +3039,7 @@ input, select, textarea {
 		.spotlights > section > .image {
 			background-position: center center;
 			background-size: contain;
+			background-repeat: no-repeat;
 			border-radius: 0;
 			display: block;
 			position: relative;
