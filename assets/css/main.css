@@ -2628,6 +2628,15 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.square {
+			max-height: 100px;
+			width:auto;
+		}
+
+			.image.square img {
+				width: auto;
+			}
+
 		.image.avatar {
 			max-width: 100%;
 			clip-path: ellipse(41% 50% at 58% 50%);
