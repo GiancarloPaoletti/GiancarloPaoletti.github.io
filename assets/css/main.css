@@ -3042,7 +3042,7 @@ input, select, textarea {
 			border-radius: 0;
 			display: block;
 			position: relative;
-			height: 25em;
+			width: 25em;
 		}
 
 			.spotlights > section > .image img {
@@ -3063,7 +3063,7 @@ input, select, textarea {
 				opacity: 0;
 				position: absolute;
 				top: 0;
-				width: 100%;
+				width: auto;
 			}
 
 		.spotlights > section > .content {
