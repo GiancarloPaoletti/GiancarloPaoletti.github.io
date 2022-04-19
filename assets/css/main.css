@@ -2528,7 +2528,7 @@ input, select, textarea {
 		.icon.home:before {
 			font-size: 35px;
 			transform: translateY(21%);
-			margin-right: 0;
+			margin-right: -0.05em;
 		}
 
 		.icon.major {
