@@ -2525,6 +2525,12 @@ input, select, textarea {
 			margin-right: 0.4em;
 		}
 
+		.icon.home:before {
+			font-size: 35px;
+			transform: translateY(21%);
+			margin-right: 0;
+		}
+
 		.icon.major {
 			width: 2.5em;
 			height: 2.5em;
