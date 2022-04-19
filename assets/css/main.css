@@ -1878,6 +1878,7 @@ input, select, textarea {
 		button.icon:before,
 		.button.icon:before {
 			margin-right: 0.75em;
+			margin-top: -1em;
 		}
 
 		input[type="submit"].fit,
@@ -2513,6 +2514,12 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+		}
+
+		.icon.academic:before {
+			font-family: 'Academicons';
+			font-size: 35px;
+			transform: translateY(12%);
 		}
 
 		.icon.major {
