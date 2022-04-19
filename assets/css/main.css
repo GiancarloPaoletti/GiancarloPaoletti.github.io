@@ -2521,7 +2521,7 @@ input, select, textarea {
 		.icon.academic:before {
 			font-family: 'Academicons';
 			font-size: 35px;
-			transform: translateY(12%);
+			transform: translateY(18%);
 			margin-right: 0.4em;
 		}
 
