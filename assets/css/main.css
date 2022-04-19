@@ -2520,6 +2520,7 @@ input, select, textarea {
 			font-family: 'Academicons';
 			font-size: 35px;
 			transform: translateY(12%);
+			margin-right: 0.4em;
 		}
 
 		.icon.major {
